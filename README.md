@@ -1,29 +1,3 @@
-# Sketch Recognition
-
-A SVM based machine learning program for human sketch recognition based on [How Do Humans Sketch Objects? (Eitz et al. 2012)](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/).
-
-<span> <img src="https://media.giphy.com/media/xThtaiAAht03JkRjFe/giphy.gif" width="160"> <img src="https://media.giphy.com/media/26DN1nteDhIcwwGOY/giphy.gif" width="160">   <img src="https://media.giphy.com/media/l1KcQRJkG8JGphV0k/giphy.gif" width="160"> <img src="https://media.giphy.com/media/xThta1euv6mW2uBFmg/giphy.gif" width="160"> <img src="https://media.giphy.com/media/xThtaoqt6cwyAVnUdy/giphy.gif" width="160">   </span>
-
-## Installation
-
-### Mac/Linux
-
-- install [python 3 :snake:](https://www.python.org/downloads/)
-- install [anaconda :snake:](https://conda.io/docs/user-guide/install/index.html)
-
-```bash
-conda env create -f anaconda/environment.yml
-source activate sketch-recoginition
-```
-
-- run `sudo apt-get install unzip`
-- `cd` into project folder in terminal
-- run `/install.sh`
-
-
-### Windows
-
-:alien:
 
 ## Train SVM
 
@@ -216,8 +190,4 @@ The SVM approach is described in [How Do Humans Sketch Objects? (Eitz et al. 201
 
 The CNN approach is described in [Sketch-a-Net that Beats Humans (Yu et al. 2015)](https://arxiv.org/pdf/1501.07873.pdf)
 
-## TODO
 
-- [ ] overlapping keypoints
-- [ ] adapt Neural Networks to achieve better test resultss
-- [ ] tidy up scripts and folders
